@@ -1,0 +1,26 @@
+{
+  "name": "three-globe",
+  "version": "1.0.0",
+  "description": "a sandbox for threejs experiments, using a dynamic globe",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsulli/three-globe.git"
+  },
+  "author": "jsulli",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "three": "^0.167.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.167.1",
+    "terser": "^5.31.6",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  }
+}
