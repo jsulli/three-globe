@@ -8,6 +8,7 @@ import {
     Scene, SphereGeometry,
     WebGLRenderer
 } from "three";
+import { OceanMaterial } from "./materials/OceanMaterial/OceanMaterial.ts";
 
 
 export class Viewer {
@@ -37,7 +38,7 @@ export class Viewer {
 
         this.scene = new Scene()
 
-        const mat = new MeshBasicMaterial({ wireframe: true })
+        const mat = new OceanMaterial()
         this.globe = new Mesh(new SphereGeometry(10, 100, 100), mat)
         this.scene.add(this.globe)
 
